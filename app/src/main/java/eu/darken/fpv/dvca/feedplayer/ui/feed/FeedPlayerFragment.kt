@@ -100,7 +100,7 @@ class FeedPlayerFragment : SmartFragment(R.layout.videofeed_fragment) {
                 player1Placeholder.isGone = feed != null
                 player1Canvas.isInvisible = feed == null
                 player1Metadata.isInvisible = feed == null
-                player1RecordFab.isGone = true // feed == null
+                player1RecordFab.isGone = feed == null
             }
         }
 
@@ -138,7 +138,7 @@ class FeedPlayerFragment : SmartFragment(R.layout.videofeed_fragment) {
                 player2Placeholder.isGone = feed != null
                 player2Canvas.isInvisible = feed == null
                 player2Metadata.isInvisible = feed == null
-                player2RecordFab.isGone = true //feed == null
+                player2RecordFab.isGone = feed == null
             }
         }
 
